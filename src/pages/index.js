@@ -1,11 +1,9 @@
-import { Footer } from "@/components/Footer";
-import { Welcome } from "@/components/Welcome";
+import { ToDoList } from "@/components/ToDoList";
 
 export default function Home() {
   return (
     <div className="container">
-      <Welcome />
-      <Footer />
+      <ToDoList />
     </div>
   );
 }
