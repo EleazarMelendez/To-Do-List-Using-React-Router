@@ -3,7 +3,7 @@ import { create } from "zustand";
 export const useToDoList = create((set) => ({
   task: "",
   list: [],
-
+  
   changeTask: (value) => {
     set({ task: value });
   },
